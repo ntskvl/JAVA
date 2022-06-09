@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Ativ3 {
+    public static void main(String[] args){
+        Scanner numero = new Scanner(System.in);
+        System.out.println("Digite um numero: ");
+        int num = numero.nextInt();
+
+        if(num %2==0){
+            System.out.println("Par");
+        }else{
+            System.out.println("Impar");
+        }
+    
+}
+}
